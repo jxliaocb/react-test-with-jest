@@ -8,13 +8,12 @@
     "@testing-library/user-event": "^13.5.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
-    "react-scripts": "5.0.1",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test --watchAll --watchPathIgnorePatterns=node_modules --reporters=default jest-html-reporters",
+    "test": "react-scripts test --watchAll",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -41,6 +40,8 @@
     "@babel/preset-react": "^7.24.1",
     "babel-jest": "^29.7.0",
     "identity-obj-proxy": "^3.0.0",
-    "jest-html-reporters": "^3.1.7"
+    "jest": "^27.5.1",
+    "jest-html-reporters": "^3.1.7",
+    "react-scripts": "^5.0.1"
   }
 }

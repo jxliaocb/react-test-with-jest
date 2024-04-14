@@ -1,3 +1,6 @@
+# Seprate the test and src to isolated folder.
+![Folder Structure](image.png)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
@@ -21,6 +24,8 @@ See the section about [running tests](https://facebook.github.io/create-react-ap
 
 Does react-app use jest as the default test tool?
 Yes, by default, when you create a new React application using Create React App (CRA), Jest is configured as the default test runner. CRA sets up Jest along with other tools like ESLint and Babel to streamline the development process for React applications.
+
+### [View the HTML Report](./html-report/report.html)
 
 ### `npm run build`
 
@@ -71,3 +76,4 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
